@@ -1,0 +1,11 @@
+# 資料設定檔 (參考 P.29)
+# 這個檔案告訴 YOLO 訓練器在哪裡找到圖片和標籤
+
+# 訓練集和驗證集的圖片路徑
+# 'train.py' 腳本會自動將檔案整理到 './datasets/'
+train: ./datasets/train/images
+val: ./datasets/val/images
+
+# 類別名稱 (P.10)
+names:
+  0: aortic_valve
