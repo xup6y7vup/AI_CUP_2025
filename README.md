@@ -52,8 +52,8 @@ To train the model using YOLOv12x, run the following command. The script utilize
 python train.py
 ```
 
-* **Configuration:** The training is set to run for 150 epochs with a batch size of 4 (optimized for 48GB VRAM).
-* **Output:** Trained weights will be saved in `runs/detect/aov_yolov12x_a6000_local/weights/best.pt`.
+* **Configuration:** The training is set to run for 150 epochs with a batch size of 16 (optimized for 48GB VRAM).
+* **Output:** Trained weights will be saved in `runs/detect/yolov12x_fold_1_local/weights/best.pt`.
 
 ## 4. Prediction / Inference
 To generate predictions on the test set (or validation set) using the best-trained model:
