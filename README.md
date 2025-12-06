@@ -16,7 +16,8 @@ This repository contains the source code for the **AI CUP 2025 Autumn Competitio
 To set up the environment, please install the required dependencies using the following command:
 
 ```bash
-pip install ultralytics torch torchvision torchaudio
+pip install ultralytics torch torchvision torchaudio```
+
 Ultralytics: For YOLOv12 model implementation.
 
 PyTorch: Deep learning framework with CUDA support.
